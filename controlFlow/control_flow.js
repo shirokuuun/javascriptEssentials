@@ -38,3 +38,9 @@ switch (userType) {
 }
 
 console.log("The user category is:", userCategory);
+
+let isAuthenticated = false;
+
+let authenticationStatus = isAuthenticated ? "Authenticated" : "not authenticated";
+
+console.log("User is", authenticationStatus);
